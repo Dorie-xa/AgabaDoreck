@@ -18,7 +18,9 @@ print(names[-1])
 
 
 new_list=["dad","mum","girl","boy","daughter","son","aunt"]
-print(new_list[2])
-print(new_list[3])
-print(new_list[4])
+print(new_list[1:5])
+
+#list of countries
+countries=["Uganda", "Kenya","Tanzania"]
+New_countries=countries.copy()
 
